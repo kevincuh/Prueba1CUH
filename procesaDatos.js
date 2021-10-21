@@ -10,11 +10,22 @@ fSesion.addEventListener('submit',function(e){
 
     var mensaje = document.getElementById("mensaje")
 
-    mensaje.innerHTML = `
+    
+
+    if(datos.get('usuario')=="" || datos.get('contra')=="")
+    {
+        mensaje.innerHTML = `
+            <div class="alert alert-danger"><h5>Faltan datos</h5></div>
+            `
+    }
+    else
+    {
+        mensaje.innerHTML = `
             <h4>Datos correctos</h4>
             <p>Usuario: ${datos.get('usuario')}</p>
             <p>Contraseña: ${datos.get('contra')}</p>
-    `
+            `
+    }
 
 })
 
