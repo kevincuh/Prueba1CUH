@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(rgba(27, 19, 139, 0.781), rgba(4, 1, 44, 0.685));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.formulario{
+    height: auto;
+    border: rgb(154, 147, 202) 6px solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(
+            rgba(8, 2, 87, 0.685),
+            rgba(8, 2, 87, 0.685)
+        ),
+        url("https://meikmag.com/wp-content/uploads/2020/10/L_175243_londres-bigben-cabina-coronavirus.jpg");
+        
+    background-size: cover;
+    /*filter: blur(1px);*/
+    color: whitesmoke;
+}
+
+.miniespacio{
+    padding-top: 5%;
+}
+
+.form-control{
+    width: 70%;
+}
+
+.espacioRegistro{
+    padding-top: 5%;
+}
+
+.espacioInicioSesion{
+    padding-top: 10%;
+}
